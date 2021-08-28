@@ -17,9 +17,10 @@ body {
 }
 
 body {
-	background: #ffffff;
+	background: url("https://img.wallpapersafari.com/desktop/1920/1080/53/19/0f3Gl8.jpg");
 	font-family: 'Permanent Marker', cursive;
 	font-size: 16px;
+	color:#ffffff
 }
 
 .container {
@@ -41,7 +42,7 @@ h1 {
 
 .deck {
 	width: 85%;
-	background: #a515a5;
+	background: #99154E;
 	padding: 1rem;
 	border-radius: 4px;
 	box-shadow: 8px 9px 26px 0 rgba(0, 0, 0, 0.5);
@@ -56,9 +57,9 @@ h1 {
 	height: 3.7rem;
 	width: 3.7rem;
 	margin: 0.2rem 0.2rem;
-	background: #141214;;
+	background: #FFC93C;;
 	font-size: 0;
-	color: #ffffff;
+	color: #6e4751;
 	border-radius: 5px;
 	cursor: pointer;
 	display: flex;
@@ -69,7 +70,7 @@ h1 {
 
 .deck .card.open {
 	transform: rotateY(0);
-	background: #02b3e4;
+	background: #a7b2b6;
 	cursor: default;
 	animation-name: flipInY;
 	-webkit-backface-visibility: visible !important;
@@ -143,11 +144,12 @@ h1 {
 
 
 /*
- * Styles for congratulations modal
+ * Styles for congratulations modalgot
  */
 
 
 .overlay {
+	
 	position: fixed;
 	top: 0;
 	bottom: 0;
@@ -167,7 +169,7 @@ h1 {
 .popup {
 	margin: 70px auto;
 	padding: 20px;
-	background: #ffffff;
+	background: #852c2c;
 	border-radius: 5px;
 	width: 85%;
 	position: relative;
